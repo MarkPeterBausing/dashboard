@@ -1,0 +1,63 @@
+/* src/components/Dashboard.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif; /* Updated font for a modern look */
+}
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9; /* Light background for the main container */
+}
+
+.sidebar {
+    width: 220px; /* Slightly wider sidebar */
+    background-color: #4a4a4a; /* Darker shade for sidebar */
+    color: #f4f4f9; /* Light text for contrast */
+    padding: 30px; /* Increased padding for a spacious feel */
+    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.2); /* Softer shadow effect */
+}
+
+.dashboard-content {
+    flex-grow: 1;
+    padding: 450px; /* Adjusted padding for content */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+}
+
+h2 {
+    margin-bottom: 15px; /* Increased space below heading */
+    font-size: 2.5em; /* Larger font size for a more prominent heading */
+    color: #333; /* Darker color for better visibility */
+}
+
+p {
+    font-size: 1.2em; /* Increased font size for improved readability */
+    color: #555; /* Softer color for text */
+    margin-bottom: 30px; /* More space below paragraph */
+}
+
+.logout-container {
+    margin-top: auto; /* Push logout button to the bottom */
+    text-align: center;
+}
+
+.logout-button {
+    background-color: #d9534f; /* Updated to a more vibrant red */
+    color: white;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; /* Slightly larger font size */
+    transition: background-color 0.3s, transform 0.2s; /* Added transform for effect */
+}
+
+.logout-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

@@ -1,0 +1,17 @@
+[33mcommit fb577a6e7cb7d3a3eb16276a404952e464f4360a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: MarkPeterBausing <bausingpeter21@gmail.com>
+Date:   Sun Oct 20 22:03:26 2024 +0800
+
+    first commit
+
+[33mcommit cb6bc8474765d5eec1a9e35a358aefef2402d200[m
+Author: MarkPeterBausing <bausingpeter21@gmail.com>
+Date:   Sun Oct 20 22:02:42 2024 +0800
+
+    first commit
+
+[33mcommit ccc0f596f63c308b1d093f1ece099b7667864c1c[m
+Author: Cyriel Maningo <shakespearesye@gmail.com>
+Date:   Sat Oct 12 18:11:00 2024 +0800
+
+    Implement dashboard page

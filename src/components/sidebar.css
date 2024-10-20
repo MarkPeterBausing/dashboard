@@ -1,0 +1,44 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    height: 100vh;
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 30px; /* Increased padding for spacious layout */
+    box-shadow: -4px 0 15px rgb(226, 9, 9); /* Shadow on the left for depth */
+    position: fixed; /* Fix sidebar in place */
+    top: 0;
+    right: 0; /* Position on the right side */
+    transition: width 0.3s; /* Smooth transition for width */
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: 2em; /* Larger title for prominence */
+    color: #f30000; /* Dark blue color for title */
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin-top: 40px; /* Increased space above the menu */
+}
+
+.sidebar-menu li {
+    margin: 20px 0; /* Space between menu items */
+}
+
+.sidebar-link {
+    text-decoration: none; /* Remove underline */
+    color: #fa1100; /* Dark blue color for links */
+    padding: 15px; /* Adjust padding for comfort */
+    display: block; /* Make link occupy full width */
+    border-radius: 10px; /* Smooth, rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.sidebar-link:hover {
+    background-color: #ff0000; /* Light gray on hover */
+    color: #f73c03; /* Darker blue for text on hover */
+}
